@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
+  show=true;
+  // hidden=true;
 
+   toggleShow(){
+    this.show=!this.show;
+    // this.hidden=false;
+   }
+  
 }
